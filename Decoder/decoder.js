@@ -18,7 +18,7 @@ function encoder1() {
         let result = alphabet.indexOf(value[i]);
 
         //this is the contatornator 
-        encoded += result +"$";
+        encoded += result +"*";
     }
 
     output1.innerHTML = encoded;
